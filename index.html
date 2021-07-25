@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width", initial-scale=1.0">
         <link rel="stylesheet" href="style/main.css">
+        <link rel="js" href="js/owl/setup.js"
 
         <!--responsividade-->
         <link rel="stylesheet" href="style/responsive.css">
@@ -12,7 +13,7 @@
         <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
         <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
-        <title>NETFLIX CLONE</title>
+        <title>NETFLIX CLONE</title>        
     </head>
     <body>
         <header>
@@ -33,13 +34,17 @@
                     <h3 class="titulo">PONTO CEGO</h3>
                     <p class="descricao">Misteriosa mulher é encontrada na Times Square, sem quaisquer lembranças de quem ela é e de como chegou ali. As únicas pistas que ela possui são as tatuagens que cobrem todo o seu corpo. Um agente do FBI passa a ajudá-la enquanto buscam a verdade. <br><strong>5ª temporada estreia no dia 31 de julho.</strong></p>
                     <div class="botoes">
-                        <button role="button" class="botao">
-                            <i class="fas fa-play"></i>
+                        <button role="button" onclick=links1(1) class="botao">
+                            <i class="fas fa-play"></i>                            
                             ASSISTIR AGORA
                         </button>
-                        <button role="button" class="botao">
+                        <button role="button" onclick=links1(2) class="botao">
                             <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
+                        </button>
+                        <button role="button" onclick=links1(3) class="botao">
+                            <i class="fas fa-star"></i>
+                            IMDB
                         </button>
                     </div>
                 </div>
@@ -86,5 +91,6 @@
         <script src="js/owl/owl.carousel.min.js"></script>
         <script src="js/owl/setup.js"></script>
 
+                
     </body>
 </html>
