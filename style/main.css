@@ -45,9 +45,10 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa_ponto_cego.jpg');    
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa_ponto_cego3.jpg');    
     background-size: contain;
-
+    background-position: center;
+    position: relative;
     height: 800px;
     background-size: cover;
 
@@ -117,9 +118,7 @@ header nav a:hover{
         margin-left: 20px;
     }
 
-    .filme-principal .container{
-        width:40%;
-    }
+    
 
     .box-filme{
         height: 100%;;
@@ -129,4 +128,8 @@ header nav a:hover{
 
     .carrossel-filmes{
         margin-top: 5px;
+    }
+
+    .box-filme:hover{
+        border: 5px solid white;
     }
