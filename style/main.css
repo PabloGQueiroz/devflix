@@ -149,7 +149,15 @@ header nav a:hover{
             align-items: flex-start;
                 }
         
+        .descricao {
+            font-size: 18px;
+        }
         
+        .titulo {
+            font-size: 50px;
+        }
+
+
             }
 
     @media (min-width: 700px) and (max-width: 999px) {
@@ -168,7 +176,15 @@ header nav a:hover{
             align-items: flex-start;
                 }
         
+        .descricao {
+            font-size: 15px;
+        }
         
+        .titulo {
+            font-size: 40px;
+        }
+
+
             }
 
     @media (min-width: 411px) and (max-width: 699px) {
@@ -187,14 +203,22 @@ header nav a:hover{
             align-items: flex-start;
                 }
         
+        .descricao {
+            font-size: 14px;
+        }
+        
+        .titulo {
+            font-size: 30px;
+        }
+
         
             }
 
-    @media (min-width: 281px) and (max-width: 410px) {
+    @media (max-width: 410px) {
 
         .filme-principal{
             background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa_ponto_cego2.jpg');
-            font-size: 12px;       
+            font-size: 1px;       
             background-size: contain;
             background-position: top;
             position: relative;
@@ -206,6 +230,14 @@ header nav a:hover{
             align-items: flex-start;
                 }
         
+        .descricao {
+            font-size: 10px;
+        }
+        
+        .titulo {
+            font-size: 25px;
+        }
+
         
             }
 
