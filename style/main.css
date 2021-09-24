@@ -24,11 +24,9 @@ header .container{
 }
 
 header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
-    text-align: left;
+    float: left;
+    width: 150px;
+    padding: 20px;
 }
 
 header nav a{
